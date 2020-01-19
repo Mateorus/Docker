@@ -1,0 +1,1 @@
+docker run --name lair -p8080:80 --link spawning-pool -e WORDPRESS_DB_HOST=spawning-pool:3306 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=Kerrigan -e WORDPRESS_DB_NAME=zerglings -d wordpress:5.3.2-php7.4-apache
